@@ -1,3 +1,8 @@
 import numpy as np
-a = np.array([1,2,3])
-print(a)
+
+def toNumpyArray(a):
+    return np.array(a)
+
+if __name__ == '__main__':
+    result=toNumpyArray([1,2,3])
+    print(result)
