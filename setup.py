@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name = 'pyrainzplay',
-    packages = ['pyrainzplay','scripts','funclib'],
+    packages = ['pyrainzplay','pyrainzplay.scripts','pyrainzplay.funclib'],
     version = '0.0.6',
     license='Personal',
     description = 'Playground app for py first timers!',
